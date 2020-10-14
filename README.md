@@ -12,7 +12,7 @@ In your target's "capabilities" tab in Xcode, make sure that iCloud is switched 
 
 ```javascript
 import { NativeEventEmitter } from 'react-native';
-import iCloudStorage from 'react-native-icloudstore';
+import iCloudStorage from '@photon-sdk/react-native-icloudstore';
 
 ...
 
@@ -39,7 +39,7 @@ import iCloudStorage from 'react-native-icloudstore';
 ## Install
 
 ```shell
-npm install --save react-native-icloudstore
+npm install --save @photon-sdk/react-native-icloudstore
 ```
 
 ## Automatically link
@@ -47,7 +47,7 @@ npm install --save react-native-icloudstore
 #### With React Native 0.27+
 
 ```shell
-react-native link react-native-icloudstore
+react-native link @photon-sdk/react-native-icloudstore
 ```
 
 #### With older versions of React Native
@@ -55,7 +55,7 @@ react-native link react-native-icloudstore
 You need [`rnpm`](https://github.com/rnpm/rnpm) (`npm install -g rnpm`)
 
 ```shell
-rnpm link react-native-icloudstore
+rnpm link @photon-sdk/react-native-icloudstore
 ```
 
 ## Manually link
@@ -63,7 +63,7 @@ rnpm link react-native-icloudstore
 ### iOS (via Cocoa Pods)
 Add the following line to your build targets in your `Podfile`
 
-`pod 'RNICloudStore', :path => '../node_modules/react-native-icloudstore'`
+`pod 'RNICloudStore', :path => '../node_modules/@photon-sdk/react-native-icloudstore'`
 
 Then run `pod install`
 
@@ -72,7 +72,7 @@ Then run `pod install`
 In XCode, in the project navigator:
 - Right click _Libraries_
 - Add Files to _[your project's name]_
-- Go to `node_modules/react-native-icloudstore`
+- Go to `node_modules/@photon-sdk/react-native-icloudstore`
 - Add the `.xcodeproj` file
 
 In XCode, in the project navigator, select your project.
